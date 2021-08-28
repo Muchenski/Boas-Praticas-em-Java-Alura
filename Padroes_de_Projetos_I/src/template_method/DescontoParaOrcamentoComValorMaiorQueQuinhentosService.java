@@ -1,4 +1,4 @@
-package chain_of_responsibility;
+package template_method;
 
 import java.math.BigDecimal;
 
@@ -11,11 +11,13 @@ public class DescontoParaOrcamentoComValorMaiorQueQuinhentosService extends Calc
 	}
 
 	@Override
-	public BigDecimal calcular(Orcamento orcamento) {
-		if (orcamento.getValor().compareTo(new BigDecimal(500.0)) > 0) {
-			return orcamento.getValor().multiply(new BigDecimal(0.05));
-		}
-		return proximo.calcular(orcamento);
+	protected BigDecimal efetuarCalculo(Orcamento orcamento) {
+		return orcamento.getValor().multiply(new BigDecimal(0.05));
+	}
+
+	@Override
+	protected boolean deveAplicar(Orcamento orcamento) {
+		return orcamento.getValor().compareTo(new BigDecimal(500.0)) > 0;
 	}
 
 }

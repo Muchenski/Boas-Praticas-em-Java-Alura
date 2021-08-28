@@ -1,4 +1,4 @@
-package chain_of_responsibility;
+package template_method;
 
 import java.math.BigDecimal;
 
@@ -11,8 +11,13 @@ public class SemDesconto extends CalculadoraDeDesconto {
 	}
 
 	@Override
-	public BigDecimal calcular(Orcamento orcamento) {
+	protected BigDecimal efetuarCalculo(Orcamento orcamento) {
 		return BigDecimal.ZERO;
+	}
+
+	@Override
+	protected boolean deveAplicar(Orcamento orcamento) {
+		return true;
 	}
 
 }

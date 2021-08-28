@@ -1,4 +1,4 @@
-package chain_of_responsibility;
+package template_method;
 
 import java.math.BigDecimal;
 
