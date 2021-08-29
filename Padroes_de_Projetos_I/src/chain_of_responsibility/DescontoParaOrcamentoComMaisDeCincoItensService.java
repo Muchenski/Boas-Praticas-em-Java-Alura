@@ -2,8 +2,6 @@ package chain_of_responsibility;
 
 import java.math.BigDecimal;
 
-import domain.Orcamento;
-
 public class DescontoParaOrcamentoComMaisDeCincoItensService extends CalculadoraDeDesconto {
 
 	public DescontoParaOrcamentoComMaisDeCincoItensService(CalculadoraDeDesconto proximo) {

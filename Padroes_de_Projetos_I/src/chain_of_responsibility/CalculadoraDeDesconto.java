@@ -2,8 +2,6 @@ package chain_of_responsibility;
 
 import java.math.BigDecimal;
 
-import domain.Orcamento;
-
 public abstract class CalculadoraDeDesconto {
 
 	protected CalculadoraDeDesconto proximo;

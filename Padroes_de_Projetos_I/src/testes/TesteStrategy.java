@@ -2,10 +2,10 @@ package testes;
 
 import java.math.BigDecimal;
 
-import domain.Orcamento;
 import strategy.CalculadoraDeImpostoService;
 import strategy.ICMSService;
 import strategy.ISSService;
+import strategy.Orcamento;
 
 public class TesteStrategy {
 

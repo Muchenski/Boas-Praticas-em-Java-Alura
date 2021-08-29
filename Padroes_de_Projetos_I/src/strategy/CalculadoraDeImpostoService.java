@@ -2,8 +2,6 @@ package strategy;
 
 import java.math.BigDecimal;
 
-import domain.Orcamento;
-
 public class CalculadoraDeImpostoService {
 
 	public BigDecimal calcular(Orcamento orcamento, CalculadoraDeImposto calculadoraDeImposto) {

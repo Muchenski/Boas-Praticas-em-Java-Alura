@@ -1,4 +1,4 @@
-package domain;
+package template_method;
 
 import java.math.BigDecimal;
 

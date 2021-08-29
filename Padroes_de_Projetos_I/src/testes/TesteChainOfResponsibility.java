@@ -3,7 +3,7 @@ package testes;
 import java.math.BigDecimal;
 
 import chain_of_responsibility.CalculadoraDeDescontoService;
-import domain.Orcamento;
+import chain_of_responsibility.Orcamento;
 
 public class TesteChainOfResponsibility {
 

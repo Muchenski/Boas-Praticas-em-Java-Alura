@@ -2,8 +2,6 @@ package template_method;
 
 import java.math.BigDecimal;
 
-import domain.Orcamento;
-
 public class DescontoParaOrcamentoComMaisDeCincoItensService extends CalculadoraDeDesconto {
 
 	public DescontoParaOrcamentoComMaisDeCincoItensService(CalculadoraDeDesconto proximo) {

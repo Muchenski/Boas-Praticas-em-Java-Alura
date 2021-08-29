@@ -2,8 +2,6 @@ package template_method;
 
 import java.math.BigDecimal;
 
-import domain.Orcamento;
-
 public class CalculadoraDeDescontoService {
 
 	public BigDecimal calcular(Orcamento orcamento) {
