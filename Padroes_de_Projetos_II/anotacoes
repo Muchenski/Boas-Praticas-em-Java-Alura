@@ -1,0 +1,10 @@
+Há 3 divisões dentro de padrões de projetos:
+Criacional, Estrutural, Comportamental.
+
+Padrões utilizados neste curso(todos estruturais):
+
+Adapter
+Decorator
+Composite
+Facade
+Proxy
