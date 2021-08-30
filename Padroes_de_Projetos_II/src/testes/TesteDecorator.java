@@ -7,7 +7,7 @@ import decorator.ICMSService;
 import decorator.ISSService;
 import decorator.Orcamento;
 
-public class TestaDecorator {
+public class TesteDecorator {
 
 	public static void main(String[] args) {
 
