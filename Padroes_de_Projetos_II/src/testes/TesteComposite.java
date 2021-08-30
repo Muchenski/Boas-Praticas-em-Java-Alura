@@ -6,7 +6,7 @@ import java.util.Arrays;
 import composite.ItemOrcamento;
 import composite.Orcamento;
 
-public class TestaComposite {
+public class TesteComposite {
 
 	public static void main(String[] args) {
 
